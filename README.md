@@ -7,7 +7,7 @@ Quick UI is a superfast web application UI generator that uses LLMs to quickly g
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Justmalhar/quick-ui&env=GROQ_API_KEY)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Justmalhar/quick-ui/gpt4/&env=OPENAI_API_KEY)
 
 ###  Features:
 
