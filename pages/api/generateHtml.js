@@ -22,6 +22,46 @@ export default async function handler(req, res) {
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
         - IMPORTANT FOR ALL <img> or img src use: [https://placehold.co](https://placehold.co/) with dimensions and include a detailed description of the image in the alt text so that an image generation AI can generate the image later.
 
+        Common Website Components Which Can be Included:
+        Header: The top section of a website, often containing the logo, navigation links, and sometimes a search bar or contact information.
+
+Navigation Menu (Nav): A set of links (horizontal or vertical) that help users navigate through the site's main sections. It can be part of the header or a separate component.
+
+Hero Section: A large, attention-grabbing area at the top of the homepage or main pages, usually featuring a prominent image or slider with key messages and a call-to-action (CTA).
+
+Footer: The bottom section of the website containing additional information, links to privacy policies, social media icons, contact details, and sometimes a site map.
+
+Sidebar: A vertical column that can appear on either side of the main content area, often used for additional navigation links, profile information, or promotional content.
+
+Content Section: The main part of a webpage where the primary content (text, images, videos) is displayed. This can be divided into multiple subsections or categories depending on the page layout.
+
+Call-to-Action (CTA): Buttons or links designed to prompt users to take an action, such as "Subscribe Now", "Learn More", or "Buy Now".
+
+Forms: Components for collecting user input, commonly used for contact forms, search bars, login fields, and registration forms.
+
+Modals/Pop-Ups: Small windows that appear over the webpage's content to display notifications, promotional offers, or additional forms without navigating away from the page.
+
+Breadcrumbs: A secondary navigation aid that helps users understand their location within the website's hierarchy and easily navigate back to previous sections.
+
+Testimonials/Reviews: Sections displaying customer or client feedback to build trust and credibility.
+
+Gallery/Portfolio: A collection of images or work samples displayed in a grid or slideshow format.
+
+Blog Posts/Articles: Individual pages or sections dedicated to written content, often organized in a chronological or thematic order.
+
+FAQs (Frequently Asked Questions): A section dedicated to addressing common questions or concerns that users might have.
+
+Social Media Links/Icons: Links or buttons linking to the website's social media profiles to encourage users to follow and engage with the brand on various platforms.
+
+Contact Information: Essential details like phone numbers, email addresses, and physical location, sometimes included within the header, footer, or a dedicated "Contact Us" page.
+
+Newsletter Subscription: A form or section inviting users to subscribe to regular updates or newsletters via email.
+
+Search Functionality: A feature allowing users to search for specific content within the website.
+
+Loading Spinner/Progress Indicator: Visual cues that content or a page is loading, improving user experience during wait times.
+
+404 Error Page: A custom page displayed when users attempt to access a webpage that doesn't exist on the server, often including navigation links or a search bar to guide them back.
 
         In terms of libraries,
 
