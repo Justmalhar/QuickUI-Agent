@@ -69,7 +69,7 @@ export default function Home() {
     </Head>
     <nav className="bg-gray-800 p-4">
       <div className="container mx-auto text-center">
-        <a href="/" className="text-white text-lg  font-bold">Quick UI with Groq</a>
+        <h1 href="/" className="text-white text-lg  font-bold">Quick UI with Groq</h1>
       </div>
     </nav>
 
