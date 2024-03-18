@@ -79,16 +79,15 @@ Loading Spinner/Progress Indicator: Visual cues that content or a page is loadin
         const variants = [1]; // Example for generating 3 variants
   
         const fetchPromises = variants.map((variant, index) =>
-          fetch("https://api.groq.com/openai/v1/chat/completions", {
+          fetch("https://api.openai.com/v1/chat/completions", {
             method: "POST",
             headers: {
-              "Authorization": `Bearer ${process.env.GROQ_API_KEY}`,
+              "Authorization": `Bearer ${process.env.OPENAI_API_KEY}`,
               "Content-Type": "application/json"
             },
             body: JSON.stringify({
               messages: [{ "role": "system", "content": system_prompt }, { "role": "user", "content": `Responsive HTML/Tailwind Website Idea: ${idea}. Output Code in HTML Block:` }],
-              model: "mixtral-8x7b-32768",
-              max_tokens: 4000,
+              model: "gpt-4-0125-preview",
               temperature: 0.7,
             })
           }).then(response => response.json())
