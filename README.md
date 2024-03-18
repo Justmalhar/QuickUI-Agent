@@ -1,6 +1,12 @@
 # Quick UI
 Quick UI is a superfast web application UI generator that uses LLMs to quickly generate your UI ideas into polished, ready-to-deploy single-page applications. Utilizing HTML, Tailwind CSS, Bootstrap, Font Awesome, and Google Fonts, the Quick UI Generator streamlines the design process, making it faster to test your idea. Designed for both novices and seasoned developers, this tool simplifies the UI generation process with an intuitive interface and real-time preview capabilities.
 
+<video width="1920" height="1080" controls>
+  <source src="demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
