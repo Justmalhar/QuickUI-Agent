@@ -23,6 +23,7 @@ Whether you're looking to quickly prototype a concept or need a starting point f
 
 ### Technologies Used
 - Next.js
+- Groq for superfast LLM inference
 - Tailwind CSS
 - Font Awesome
 - Google Fonts
@@ -35,9 +36,11 @@ First, run the development server:
 ```bash
 git clone https://github.com/Justmalhar/quick-ui.git
 cd quick-ui
-cp .env.example .env
+cp .env.example .env #Add your Groq API Key from https://console.groq.com/
 npm run dev
 ```
+
+Get Groq API key from: [Groq Console](https://console.groq.com/)
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
