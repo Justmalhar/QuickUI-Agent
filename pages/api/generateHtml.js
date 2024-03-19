@@ -88,8 +88,7 @@ Loading Spinner/Progress Indicator: Visual cues that content or a page is loadin
             body: JSON.stringify({
               messages: [{ "role": "system", "content": system_prompt }, { "role": "user", "content": `Responsive HTML/Tailwind Website Idea: ${idea}. Output Code in HTML Block:` }],
               model: "mixtral-8x7b-32768",
-              max_tokens: 4000,
-              temperature: 0.7,
+              temperature: 0.6,
             })
           }).then(response => response.json())
         );
