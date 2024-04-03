@@ -38,7 +38,7 @@ First, run the development server:
 ```bash
 git clone https://github.com/Justmalhar/quick-ui.git
 cd quick-ui
-cp .env.example .env #Add your Groq API Key from https://console.groq.com/
+cp .env.example .env #Add your Groq API Key from https://console.groq.com/ and save as GROQ_API_KEY=api_value_here
 npm run dev
 ```
 
