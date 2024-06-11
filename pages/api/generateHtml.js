@@ -69,7 +69,7 @@ Loading Spinner/Progress Indicator: Visual cues that content or a page is loadin
         - You can use Google Fonts
         - Must use Font Awesome for icons for improving UI: <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
        Return only the full code in <html></html> tags.
-        Do not include markdown "\`" or "\`html" at the start or end.
+        Do not include markdown "\`" or "\`html" at the start or end. NEVER INCLUDE EXPLAINATION OR TEXT, JUST OUTPUT HTML CODE WITH TAILWINDCSS.
         `;
 
 
